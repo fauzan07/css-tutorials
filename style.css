@@ -155,5 +155,65 @@ div.first {
      left: 20px;
      right: 10px; */
  }
+
+ .grid-container{
+     display: grid;
+     /* display: inline-grid; */
+     /* grid-column-gap: 20px; */
+     /* grid-row-gap: 20px; */
+     /* ..........r     c */
+     grid-gap: 50px 100px;
+     grid-template-columns: auto auto auto;
+     background-color: #2196F3;
+     padding: 10px;
+     margin-bottom: 40px;
+ }
  
+ .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+  }
+
+  .flex-container{
+      display: flex;
+      /* justify-content: center; */
+      /* justify-content: flex-end; */
+      /* justify-content: space-around; */
+      /* justify-content: space-between; */
+      /* align-items: center; */
+      /* align-items: flex-start; */
+      /* align-items: flex-end; */
+      /* align-items: stretch; */
+      align-items: baseline;
+      /* flex-wrap: wrap; */
+      /* flex-direction: column; */
+      /* flex-direction: column-reverse; */
+      /* flex-direction: row;
+      flex-direction: row-reverse; */
+      background-color: #f32121;
+      padding: 10px;
+      width: 80%;
+      height: 500px;
+  }
+
+  .flex-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+  }
 
